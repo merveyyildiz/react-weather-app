@@ -1,0 +1,50 @@
+.weather {
+    margin-top: 50px;
+    border: 1px solid #e4e4e4;
+    padding: 0px 15px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #343434;
+    color: #fff;
+}
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.city {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    height: 55px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 400;
+}
+.icon {
+    width: 100px;
+}
+.tempature {
+    font-weight: 700;
+    font-size: 70px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.detail {
+    width: 100%;
+    padding-left: 20px;
+}
+.label {
+    font-weight: 400;
+    font-size: 12px;
+}
+.value {
+    font-weight: 600;
+    font-size: 12px;
+}
+.label.top {
+    border-bottom: 1px solid #fff;
+}
